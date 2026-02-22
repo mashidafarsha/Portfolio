@@ -29,7 +29,7 @@ const projects = [
     description: "A multi-vendor home service platform with specialized flows for Admins, Service Providers, and Users. Features a robust verification system, real-time booking management, and tiered service categorization.",
    
     image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop", 
-    tags: ["Node.js", "Express", "MongoDB"],
+    tags: ["Node.js", "Express","Typscript", "MongoDB"],
     features: ["Multi-Role Dashboards", "Provider Verification Flow", "Real-time Notifications"],
     github: "#",
     live: "#"
