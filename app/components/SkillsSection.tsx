@@ -5,7 +5,8 @@ import {
   FaJs, FaNodeJs, FaReact, FaDatabase, FaAws, FaDocker, FaGitAlt, FaFigma, FaHtml5, FaCss3Alt, FaBootstrap 
 } from "react-icons/fa";
 import { 
-  SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiPostman, SiFirebase, SiRedux, SiSocketdotio, SiExpress, SiMui, SiChakraui, SiFramer, SiNginx, SiJest
+  SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiPostman, SiFirebase, SiRedux, SiSocketdotio, SiExpress, SiMui, SiChakraui, SiFramer, SiNginx, SiJest,
+  SiWordpress
 } from "react-icons/si";
 
 const skillData = [
@@ -26,6 +27,7 @@ const skillData = [
       { name: "Redux", icon: <SiRedux className="text-purple-500" /> },
       { name: "Tailwind", icon: <SiTailwindcss className="text-teal-400" /> },
       { name: "MUI", icon: <SiMui className="text-blue-600" /> },
+      { name: "WordPress", icon: <SiWordpress className="text-blue-700" /> },
       { name: "Framer", icon: <SiFramer className="text-pink-500" /> },
     ],
   },
