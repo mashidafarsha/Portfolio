@@ -22,7 +22,7 @@ const projects = [
     tags: ["MERN Stack", "Stripe", "Cloudinary", "Redux"],
     features: ["Multi-Vendor Architecture", "Admin Moderation", "Inventory Management"],
     github: "https://github.com/mashidafarsha/nexusstore",
-    live: "https://nexusshopv.netlify.app/"
+    live: "https://nexusshopy.netlify.app/"
   },
     {
     title: "AnnotatePro",
