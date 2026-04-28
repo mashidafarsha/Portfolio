@@ -67,7 +67,7 @@ const projects = [
     tags: ["Next.js", "Tailwind CSS", "MUI", "AI Workflow"],
     features: ["SEO Optimization (Score 92)", "Code Splitting", "Real-time Workflows"],
     github: "#",
-    live: "#"
+    live: "https://snapshare.ai/"
   },
   {
     title: "Weather Forecast App",
