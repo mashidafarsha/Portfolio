@@ -4,58 +4,90 @@ import { motion } from "framer-motion";
 import { FaGithub, FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const projects = [
+
   {
     title: "TRUE CARE",
-    description: "Advanced Hospital Management System with MERN. Features real-time doctor-patient chat, integrated Razorpay for plan purchases, and an automated slot booking system for seamless scheduling.",
-
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1000&auto=format&fit=crop", 
-    tags: ["MERN Stack", "Socket.io", "Razorpay", "Redux"],
-    features: ["Online Slot Booking", "Live Chat", "Payment Gateway"],
-    github: "#",
-    live: "#"
+    description: "Full-stack Hospital Management System featuring online slot booking, digital prescriptions, and video consultations.",
+    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1000&auto=format&fit=crop",
+    tags: ["MERN Stack", "WebRTC", "Socket.io", "Razorpay"],
+    features: ["Online Slot Booking", "Live Doctor Chat", "Secure Payments"],
+    github: "https://github.com/mashidafarsha/babyCare-backend",
+    
+    live: "https://truecare.netlify.app/"
+  },
+  {
+    title: "NexusStore",
+    description: "Scalable multi-vendor e-commerce platform with independent vendor dashboards and secure Stripe payment integration.",
+    image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop",
+    tags: ["MERN Stack", "Stripe", "Cloudinary", "Redux"],
+    features: ["Multi-Vendor Architecture", "Admin Moderation", "Inventory Management"],
+    github: "https://github.com/mashidafarsha/nexusstore",
+    live: "https://nexusshopv.netlify.app/"
+  },
+    {
+    title: "AnnotatePro",
+    description: "High-performance document annotation engine featuring a 'Sandwich Architecture' for 60fps performance and dynamic scaling across devices.",
+    image: "https://images.unsplash.com/photo-1544391496-1ca7c97457cd?q=80&w=1000&auto=format&fit=crop",
+    tags: ["React 19", "Konva.js", "Zustand", "Tailwind CSS"],
+    features: ["60fps Drawing Performance", "Undo/Redo Stack", "Math/LaTeX Support"],
+    github: "https://github.com/mashidafarsha/AnnotatePro",
+    live: "https://annotatepro.netlify.app/"
+  },
+  {
+    title: "LuxeEstate AI",
+    description: "Next-gen AI-powered real estate platform with ROI prediction systems and real-time agent-buyer communication using Socket.io.",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1000&auto=format&fit=crop",
+    tags: ["MERN Stack", "Socket.io", "Framer Motion", "AI"],
+    features: ["ROI Prediction", "Bento Grid UI", "Agent Dashboard"],
+    github: "https://github.com/mashidafarsha/luxeestate",
+    live: "https://luxesestate.netlify.app/"
   },
   {
     title: "FreshShop Organic",
-    description: "A premium farm-to-table e-commerce solution focused on organic produce. Built with a robust cart system, secure checkout flow, and detailed order tracking for a seamless shopping experience.",
-   
-    image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1000&auto=format&fit=crop", 
-    tags: ["Next.js", "Redux Toolkit", "Node.js", "Razorpay"],
-    features: ["Dynamic Cart & Wishlist", "Razorpay Payment", "Real-time Order History"],
+    description: "A premium farm-to-table organic e-commerce solution with a robust cart system and real-time order history tracking.",
+    image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1000&auto=format&fit=crop",
+    tags: ["Next.js", "Node.js", "Redux Toolkit", "Razorpay"],
+    features: ["Dynamic Cart & Wishlist", "Secure Checkout Flow", "Organic Produce Focus"],
+    github: "https://github.com/mashidafarsha/footwear",
+    live: "#"
+  },
+  {
+    title: "Home Service Platform",
+    description: "Multi-vendor backend architecture with AWS S3 pre-signed URL uploads and role-based access control.",
+    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop",
+    tags: ["Node.js", "Express", "AWS EC2", "NGINX"],
+    features: ["RBAC Modules", "API Query Optimization", "Provider Verification"],
     github: "#",
     live: "#"
   },
   {
-    title: "Home service",
-    description: "A multi-vendor home service platform with specialized flows for Admins, Service Providers, and Users. Features a robust verification system, real-time booking management, and tiered service categorization.",
-   
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop", 
-    tags: ["Node.js", "Express","Typscript", "MongoDB"],
-    features: ["Multi-Role Dashboards", "Provider Verification Flow", "Real-time Notifications"],
+    title: "SnapShareAI",
+    description: "Responsive web application for AI image detection, optimized for SEO using Next.js Server-Side Rendering.",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop",
+    tags: ["Next.js", "Tailwind CSS", "MUI", "AI Workflow"],
+    features: ["SEO Optimization (Score 92)", "Code Splitting", "Real-time Workflows"],
     github: "#",
     live: "#"
   },
   {
     title: "Weather Forecast App",
-    description: "Real-time weather tracking application with interactive maps, detailed forecasts, and location-based updates.",
-    
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=1000&auto=format&fit=crop", 
+    description: "Real-time weather tracking application providing live forecasts and interactive maps using OpenWeather API.",
+    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?q=80&w=1000&auto=format&fit=crop",
     tags: ["React", "OpenWeather API", "Tailwind CSS"],
-    features: ["Interactive Maps", "Live Forecasts", "Location Updates"],
-    github: "#",
+    features: ["Live Location Updates", "Detailed Map View", "7-Day Forecast"],
+    github: "https://github.com/mashidafarsha/wheather-application",
     live: "#"
   },
   {
     title: "Smart Todo List",
-    description: "A clean, efficient task management tool with drag-and-drop organization, categories, and local storage persistence.",
-   
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1000&auto=format&fit=crop", 
+    description: "Efficient task management tool featuring drag-and-drop organization and persistent local storage.",
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1000&auto=format&fit=crop",
     tags: ["React", "TypeScript", "Local Storage"],
-    features: ["Drag-and-Drop", "Categorization", "Local Persistence"],
-    github: "#",
+    features: ["Drag-and-Drop", "Task Categorization", "Data Persistence"],
+    github: "https://github.com/mashidafarsha/ToDo",
     live: "#"
   }
 ];
-
 export default function SelectedWorks() {
   return (
     <section id="work" className="py-24 px-6 max-w-7xl mx-auto relative z-10">
